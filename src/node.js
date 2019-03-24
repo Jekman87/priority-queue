@@ -11,9 +11,11 @@ class Node {
 		if (this.left === null) {
 			this.left = node;
 			node.parent = this;
+			return false;
 		} else if (this.right === null) {
 			this.right = node;
 			node.parent = this;
+			return true;
 		}
 	}
 
