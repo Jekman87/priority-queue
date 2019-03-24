@@ -38,7 +38,7 @@ class Node {
 	}
 
 	swapWithParent() {
-		if (this.parent !== null) {
+		if (this.parent !== null) {			
 			let swapParent = this.parent;
 
 			this.parent = swapParent.parent;
